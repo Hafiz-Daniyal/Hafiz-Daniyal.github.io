@@ -1,1 +1,475 @@
-# Hafiz-Daniyal.github.io
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hafiz Muhammad Daniyal Zia | Agentic AI, Android & Flutter Developer</title>
+<meta name="description" content="Hafiz Muhammad Daniyal Zia: Project Coordinator and Junior Lecturer. Agentic AI (n8n, RAG), Android (Java, Kotlin) and Flutter (Dart) developer from Karachi, Pakistan.">
+<meta name="author" content="Hafiz Muhammad Daniyal Zia">
+<meta name="keywords" content="Hafiz Muhammad Daniyal, Hafiz Muhammad Daniyal Zia, Hafiz Daniyal, Daniyal portfolio, Agentic AI, n8n, RAG, Android developer, Flutter developer, Kotlin, Java, Karachi, Iqra University, F Tech Solutions">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://Hafiz-Daniyal.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hafiz Muhammad Daniyal Zia | Agentic AI, Android & Flutter Developer">
+<meta property="og:description" content="Portfolio of Hafiz Muhammad Daniyal Zia: Agentic AI, n8n, RAG, Android (Java/Kotlin) and Flutter.">
+<meta property="og:url" content="https://Hafiz-Daniyal.github.io/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hafiz Muhammad Daniyal Zia",
+  "alternateName": ["Hafiz Muhammad Daniyal", "Hafiz Daniyal"],
+  "url": "https://Hafiz-Daniyal.github.io/",
+  "email": "mailto:hmdaniyal2026.edu@gmail.com",
+  "jobTitle": "Project Coordinator and Junior Lecturer",
+  "worksFor": [
+    {"@type": "Organization", "name": "F Tech Solutions"},
+    {"@type": "EducationalOrganization", "name": "Iqra University"}
+  ],
+  "address": {"@type": "PostalAddress", "addressLocality": "Karachi", "addressCountry": "PK"},
+  "knowsAbout": ["Agentic AI", "n8n", "RAG", "Android", "Kotlin", "Java", "Flutter", "Dart", "C#"],
+  "sameAs": ["https://github.com/Hafiz-Daniyal"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0f1a; --bg2:#111729; --card:#141b2f; --text:#e8ecf6; --muted:#9aa4bf;
+    --line:#242d47; --accent:#6c8cff; --accent2:#b06cff; --glow:rgba(108,140,255,.25);
+  }
+  :root[data-theme="light"]{
+    --bg:#f6f8fd; --bg2:#ffffff; --card:#ffffff; --text:#12182b; --muted:#5a6483;
+    --line:#e2e7f3; --accent:#3d5afe; --accent2:#8e44ff; --glow:rgba(61,90,254,.18);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  .grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+  header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:1.15rem;letter-spacing:-.02em}
+  .links{display:flex;gap:24px;align-items:center}
+  .links a{font-size:.92rem;color:var(--muted);transition:.2s}
+  .links a:hover{color:var(--text)}
+  .theme-btn{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);color:var(--text);padding:8px 14px;border-radius:999px;cursor:pointer;font:600 .82rem Inter,sans-serif;transition:.2s}
+  .theme-btn:hover{border-color:var(--accent)}
+  .menu{display:none;background:var(--card);border:1px solid var(--line);color:var(--text);width:40px;height:40px;border-radius:10px;cursor:pointer;font-size:1.1rem}
+
+  .hero{position:relative;padding:100px 0 80px;overflow:hidden}
+  .hero::before{content:"";position:absolute;width:520px;height:520px;right:-120px;top:-120px;background:radial-gradient(circle,var(--glow),transparent 65%);z-index:-1}
+  .hero::after{content:"";position:absolute;width:420px;height:420px;left:-140px;bottom:-160px;background:radial-gradient(circle,rgba(176,108,255,.18),transparent 65%);z-index:-1}
+  .hero-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center}
+  .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:.82rem;color:var(--muted)}
+  .dot{width:8px;height:8px;border-radius:50%;background:#2ecc71;box-shadow:0 0 0 4px rgba(46,204,113,.2)}
+  h1{font-size:clamp(2.2rem,5.4vw,3.8rem);line-height:1.1;letter-spacing:-.035em;font-weight:800;margin:22px 0 18px}
+  .sub{font-size:1.08rem;color:var(--muted);max-width:620px}
+  .typed{font-family:"JetBrains Mono",monospace;color:var(--accent);min-height:1.6em;margin-top:14px;font-size:1rem}
+  .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+  .btn{padding:13px 24px;border-radius:12px;font-weight:600;font-size:.95rem;transition:.25s;border:1px solid var(--line);background:var(--card);display:inline-block}
+  .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));border:none;color:#fff;box-shadow:0 10px 30px var(--glow)}
+  .btn:hover{transform:translateY(-2px)}
+  .avatar-wrap{display:flex;justify-content:center}
+  .avatar{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 0 8px var(--glow),0 30px 80px var(--glow);letter-spacing:-.04em;overflow:hidden}
+  .avatar img{width:100%;height:100%;object-fit:cover}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:60px}
+  .stat{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+  .stat b{font-size:1.8rem;display:block;letter-spacing:-.02em}
+  .stat span{color:var(--muted);font-size:.85rem}
+
+  section{padding:80px 0}
+  .alt{background:var(--bg2)}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em}
+  h2{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.025em;margin:10px 0 14px;font-weight:800}
+  .lead{color:var(--muted);max-width:640px}
+  .about{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;margin-top:34px}
+  .about p{color:var(--muted);margin-bottom:16px}
+  .facts{display:grid;gap:12px}
+  .fact{padding:16px 18px;border:1px solid var(--line);background:var(--card);border-radius:14px;font-size:.92rem}
+  .fact small{display:block;color:var(--muted);font-size:.78rem}
+
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:36px}
+  .skill-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--card);transition:.25s}
+  .skill-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 14px 40px var(--glow)}
+  .skill-card h3{font-size:1.05rem;margin-bottom:14px}
+  .tags{display:flex;flex-wrap:wrap;gap:8px}
+  .tag{padding:5px 12px;border-radius:999px;font-size:.78rem;background:var(--bg2);border:1px solid var(--line);color:var(--muted)}
+  .alt .tag{background:var(--bg)}
+
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+  .chip{padding:8px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;font:600 .85rem Inter,sans-serif;transition:.2s}
+  .chip.active,.chip:hover{border-color:var(--accent);color:var(--text);background:var(--glow)}
+  .projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin-top:28px}
+  .proj{border:1px solid var(--line);border-radius:20px;background:var(--card);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+  .proj:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:0 16px 44px var(--glow)}
+  .proj.hide{display:none}
+  .thumb{height:130px;display:flex;align-items:center;justify-content:center;font-size:2.8rem;color:#fff;position:relative}
+  .thumb small{position:absolute;top:12px;left:12px;font:600 .68rem "JetBrains Mono",monospace;background:rgba(0,0,0,.28);padding:3px 10px;border-radius:999px;letter-spacing:.06em}
+  .g1{background:linear-gradient(135deg,#f7971e,#ff5e62)}
+  .g2{background:linear-gradient(135deg,#7f5af0,#4f7cff)}
+  .g3{background:linear-gradient(135deg,#02aab0,#00cdac)}
+  .g4{background:linear-gradient(135deg,#0ea5e9,#6366f1)}
+  .g5{background:linear-gradient(135deg,#ec4899,#8b5cf6)}
+  .proj .body{padding:22px;display:flex;flex-direction:column;gap:12px;flex:1}
+  .proj h3{font-size:1.1rem}
+  .proj p{color:var(--muted);font-size:.92rem;flex:1}
+  .proj .row a{color:var(--accent);font-size:.88rem;font-weight:600}
+  .proj .row a:hover{text-decoration:underline}
+
+  .teach{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:34px}
+  .course{padding:20px;border:1px solid var(--line);background:var(--card);border-radius:16px;transition:.25s}
+  .course:hover{border-color:var(--accent);transform:translateY(-3px)}
+  .course .ic{font-size:1.5rem}
+  .course b{display:block;margin-top:8px;font-size:.98rem}
+  .course span{color:var(--muted);font-size:.8rem}
+
+  .timeline{margin-top:36px;border-left:2px solid var(--line);padding-left:28px;display:grid;gap:30px}
+  .item{position:relative}
+  .item::before{content:"";position:absolute;left:-37px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px var(--glow)}
+  .item h3{font-size:1.05rem}
+  .item .org{color:var(--muted);font-size:.9rem}
+  .item .when{font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--accent)}
+  .item ul{margin:8px 0 0 18px;color:var(--muted);font-size:.93rem}
+  .item li{margin-bottom:3px}
+
+  .contact{text-align:center;border:1px solid var(--line);background:var(--card);border-radius:28px;padding:64px 24px;position:relative;overflow:hidden}
+  .contact::before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle at 50% 0,var(--glow),transparent 55%);z-index:0}
+  .contact>*{position:relative}
+  .socials{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+  footer{padding:34px 0;color:var(--muted);font-size:.85rem;text-align:center;border-top:1px solid var(--line)}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:.7s ease}
+  .reveal.show{opacity:1;transform:none}
+
+  @media(max-width:800px){
+    .links{position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);padding:18px 22px;border-bottom:1px solid var(--line);display:none;align-items:flex-start}
+    .links.open{display:flex}
+    .menu{display:block}
+    .hero-grid{grid-template-columns:1fr}
+    .avatar-wrap{order:-1;justify-content:flex-start}
+    .avatar{width:140px;height:140px;font-size:2.8rem}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .about{grid-template-columns:1fr}
+    .hero{padding-top:56px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="logo">Daniyal<span class="grad">.dev</span></a>
+      <div class="links" id="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#journey">Experience</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-btn" id="theme" aria-label="Switch between dark and light mode"><span id="ticon">☀️</span><span id="tlabel">Light</span></button>
+      </div>
+      <button class="menu" id="menu" aria-label="Menu">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="badge"><span class="dot"></span> Open to collaborations &amp; opportunities</span>
+        <h1>Hi, I'm <span class="grad">Hafiz Muhammad Daniyal Zia</span></h1>
+        <p class="sub">Project Coordinator and Junior Lecturer. I build agentic AI workflows, and Android and Flutter apps, and I teach the next generation of developers.</p>
+        <div class="typed" id="typed"></div>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View my work</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn" href="https://github.com/Hafiz-Daniyal" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <!-- Apni photo lagane ke liye neeche wali line ko <img src="photo.jpg" alt="Hafiz Muhammad Daniyal Zia"> se replace karein -->
+        <div class="avatar" aria-label="Hafiz Muhammad Daniyal Zia">HD</div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b data-count="6">0</b><span>Years in tech (incl. internships)</span></div>
+      <div class="stat"><b data-count="7">0</b><span>Featured projects</span></div>
+      <div class="stat"><b data-count="5">0</b><span>Courses taught</span></div>
+      <div class="stat"><b data-count="3">0</b><span>Core stacks: Android, Flutter, AI</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap reveal">
+    <div class="eyebrow">01 / About</div>
+    <h2>Where industry meets the classroom</h2>
+    <div class="about">
+      <div>
+        <p>I'm a Project Coordinator at <b>F Tech Solutions</b> and a Junior Lecturer at <b>Iqra University</b>. My work mixes shipping real software with teaching others how to build it.</p>
+        <p>I started with WordPress and C# desktop applications, then moved to native Android (Java, Kotlin) and cross-platform Flutter (Dart). Today I also design agentic AI applications with n8n, AI agents and RAG pipelines.</p>
+        <p>In the classroom I teach Data Structures and Algorithms, Operating Systems, Object Oriented Programming, Python and Android development, and I enjoy turning complex ideas into hands-on labs.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><small>Currently</small>Project Coordinator, F Tech Solutions</div>
+        <div class="fact"><small>Teaching</small>Junior Lecturer, Iqra University</div>
+        <div class="fact"><small>Focus</small>Agentic AI · Automation · Mobile Apps</div>
+        <div class="fact"><small>Based in</small>Karachi, Pakistan</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="alt">
+  <div class="wrap reveal">
+    <div class="eyebrow">02 / Skills</div>
+    <h2>What I work with</h2>
+    <p class="lead">A stack that covers mobile, AI automation, desktop and teaching.</p>
+    <div class="skills">
+      <div class="skill-card"><h3>📱 Mobile Development</h3>
+        <div class="tags"><span class="tag">Kotlin</span><span class="tag">Java</span><span class="tag">Dart</span><span class="tag">Flutter</span><span class="tag">Android Studio</span><span class="tag">Firebase</span><span class="tag">REST APIs</span></div></div>
+      <div class="skill-card"><h3>🤖 Agentic AI &amp; Automation</h3>
+        <div class="tags"><span class="tag">n8n</span><span class="tag">AI Agents</span><span class="tag">RAG</span><span class="tag">LLM APIs</span><span class="tag">Prompt Engineering</span><span class="tag">Webhooks</span></div></div>
+      <div class="skill-card"><h3>💻 Programming &amp; Desktop</h3>
+        <div class="tags"><span class="tag">C#</span><span class="tag">Windows Forms</span><span class="tag">Python</span><span class="tag">Data Structures</span><span class="tag">OOP</span><span class="tag">WordPress</span></div></div>
+      <div class="skill-card"><h3>🧭 Coordination &amp; Teaching</h3>
+        <div class="tags"><span class="tag">Project Coordination</span><span class="tag">Team Management</span><span class="tag">Course Design</span><span class="tag">Lab Manuals</span><span class="tag">Live Demos</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap reveal">
+    <div class="eyebrow">03 / Projects</div>
+    <h2>Featured work</h2>
+    <p class="lead">Android, Flutter and agentic AI projects. Filter by category.</p>
+    <div class="filters" id="filters">
+      <button class="chip active" data-f="all">All</button>
+      <button class="chip" data-f="android">Android</button>
+      <button class="chip" data-f="flutter">Flutter</button>
+      <button class="chip" data-f="ai">Agentic AI</button>
+    </div>
+    <div class="projects" id="projects-grid">
+
+      <article class="proj" data-cat="android">
+        <div class="thumb g1"><small>JAVA</small>💸</div>
+        <div class="body">
+          <h3>Smart Expense Tracker</h3>
+          <p>Native Android app to log daily income and expenses with category-wise charts, monthly budgets and offline storage.</p>
+          <div class="tags"><span class="tag">Java</span><span class="tag">SQLite</span><span class="tag">MPAndroidChart</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/smart-expense-tracker" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="android">
+        <div class="thumb g2"><small>KOTLIN</small>🎓</div>
+        <div class="body">
+          <h3>Campus Attendance App</h3>
+          <p>Kotlin app for teachers and students to mark attendance, view reports and get notifications, built with MVVM and Firebase.</p>
+          <div class="tags"><span class="tag">Kotlin</span><span class="tag">MVVM</span><span class="tag">Firebase</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/campus-attendance-app" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="flutter">
+        <div class="thumb g3"><small>FLUTTER</small>🛒</div>
+        <div class="body">
+          <h3>QuickCart E-Commerce App</h3>
+          <p>Cross-platform shopping app with product catalogue, cart, favourites and order tracking, powered by a REST API.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">Provider</span><span class="tag">REST API</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/quickcart-flutter" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="flutter">
+        <div class="thumb g4"><small>FLUTTER</small>✅</div>
+        <div class="body">
+          <h3>TaskFlow: To-Do &amp; Planner</h3>
+          <p>Clean productivity app with tasks, reminders, daily planner and dark mode, with local storage and smooth animations.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span><span class="tag">Hive</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/taskflow-flutter" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="ai">
+        <div class="thumb g5"><small>n8n AGENT</small>🏔️</div>
+        <div class="body">
+          <h3>Hunza AI Travel Planner</h3>
+          <p>Agentic AI assistant that plans trips to Hunza: itinerary, routes, budget and recommendations generated by autonomous agents.</p>
+          <div class="tags"><span class="tag">n8n</span><span class="tag">AI Agent</span><span class="tag">LLM</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/hunza-ai-travel-planner" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="ai">
+        <div class="thumb g2"><small>n8n + RAG</small>📚</div>
+        <div class="body">
+          <h3>RAG Knowledge Assistant</h3>
+          <p>Chatbot that answers questions from uploaded documents using embeddings and a vector database, with grounded, source-based replies.</p>
+          <div class="tags"><span class="tag">n8n</span><span class="tag">RAG</span><span class="tag">Vector DB</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/rag-knowledge-assistant" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+      <article class="proj" data-cat="ai">
+        <div class="thumb g3"><small>n8n AGENT</small>📬</div>
+        <div class="body">
+          <h3>AI Email &amp; Lead Automation</h3>
+          <p>n8n workflow that captures leads from forms, classifies them with AI, drafts replies and syncs everything to Google Sheets.</p>
+          <div class="tags"><span class="tag">n8n</span><span class="tag">Automation</span><span class="tag">Google Sheets</span></div>
+          <div class="row"><a href="https://github.com/Hafiz-Daniyal/ai-lead-automation" target="_blank" rel="noopener">View code ↗</a></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- TEACHING -->
+<section id="teaching" class="alt">
+  <div class="wrap reveal">
+    <div class="eyebrow">04 / Teaching</div>
+    <h2>Courses I teach</h2>
+    <p class="lead">Junior Lecturer at Iqra University, with a focus on practical, lab-based learning.</p>
+    <div class="teach">
+      <div class="course"><div class="ic">🧮</div><b>Data Structures &amp; Algorithms Lab</b><span>Problem solving and implementation</span></div>
+      <div class="course"><div class="ic">🖥️</div><b>Operating System Lab</b><span>Processes, scheduling, memory</span></div>
+      <div class="course"><div class="ic">📱</div><b>Android Application Development</b><span>Kotlin, Java and app design</span></div>
+      <div class="course"><div class="ic">🧩</div><b>Object Oriented Programming Lab</b><span>Core OOP concepts in practice</span></div>
+      <div class="course"><div class="ic">🐍</div><b>Introduction to Python</b><span>Programming fundamentals</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="journey">
+  <div class="wrap reveal">
+    <div class="eyebrow">05 / Experience</div>
+    <h2>My journey</h2>
+    <div class="timeline">
+      <div class="item">
+        <span class="when">2025 – Present</span>
+        <h3>Junior Lecturer</h3>
+        <div class="org">Iqra University</div>
+        <ul>
+          <li>Teaching Data Structures &amp; Algorithms Lab, Operating System Lab, OOP Lab and Intro to Python</li>
+          <li>Teaching Android Application Development</li>
+          <li>Designing course outlines, lab manuals and live demo classes on AI and mobile development</li>
+        </ul>
+      </div>
+      <div class="item">
+        <span class="when">2022 – 2025</span>
+        <h3>Mobile Developer &amp; Project Coordinator</h3>
+        <div class="org">F Tech Solutions</div>
+        <ul>
+          <li>3 years of experience building apps in Java, Kotlin and Flutter (Dart)</li>
+          <li>Coordinated teams and project delivery</li>
+          <li>Built agentic AI and automation solutions using n8n, AI agents and RAG</li>
+        </ul>
+      </div>
+      <div class="item">
+        <span class="when">2020 – 2021 · 8 months</span>
+        <h3>Software Development Intern</h3>
+        <div class="org">Desktop Applications</div>
+        <ul>
+          <li>Built desktop applications in C# with Windows Forms</li>
+          <li>Created forms and reports for business use</li>
+        </ul>
+      </div>
+      <div class="item">
+        <span class="when">2019 · 4 months</span>
+        <h3>WordPress Development Intern</h3>
+        <div class="org">Web Development</div>
+        <ul>
+          <li>Developed and customised WordPress websites</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="alt">
+  <div class="wrap reveal">
+    <div class="contact">
+      <div class="eyebrow">06 / Contact</div>
+      <h2>Let's build something <span class="grad">together</span></h2>
+      <p class="lead" style="margin:0 auto">Have a project, a collaboration idea or a teaching opportunity? My inbox is open.</p>
+      <div class="socials">
+        <a class="btn primary" href="mailto:hmdaniyal2026.edu@gmail.com">✉️ hmdaniyal2026.edu@gmail.com</a>
+        <a class="btn" href="https://github.com/Hafiz-Daniyal" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> Hafiz Muhammad Daniyal Zia · Built with HTML, CSS &amp; JS and hosted on GitHub Pages</footer>
+
+<script>
+  // theme toggle (dark / light)
+  const root=document.documentElement, tbtn=document.getElementById('theme');
+  const ticon=document.getElementById('ticon'), tlabel=document.getElementById('tlabel');
+  function paint(){
+    const light=root.dataset.theme==='light';
+    ticon.textContent=light?'🌙':'☀️';
+    tlabel.textContent=light?'Dark':'Light';
+  }
+  let saved=null; try{saved=localStorage.getItem('theme')}catch(e){}
+  if(saved){root.dataset.theme=saved}
+  paint();
+  tbtn.onclick=()=>{
+    const next=root.dataset.theme==='light'?'dark':'light';
+    root.dataset.theme=next; paint();
+    try{localStorage.setItem('theme',next)}catch(e){}
+  };
+
+  // mobile menu
+  const links=document.getElementById('links');
+  document.getElementById('menu').onclick=()=>links.classList.toggle('open');
+  links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+
+  // typing effect
+  const words=['Agentic AI Developer','Android Developer (Java & Kotlin)','Flutter Developer','n8n Automation Builder','Lecturer & Mentor'];
+  let w=0,c=0,del=false; const el=document.getElementById('typed');
+  (function tick(){
+    const cur=words[w];
+    el.textContent='> '+cur.slice(0,c)+'▌';
+    if(!del&&c<cur.length){c++;setTimeout(tick,70)}
+    else if(!del){del=true;setTimeout(tick,1400)}
+    else if(c>0){c--;setTimeout(tick,35)}
+    else{del=false;w=(w+1)%words.length;setTimeout(tick,250)}
+  })();
+
+  // project filters
+  const chips=document.querySelectorAll('.chip');
+  chips.forEach(ch=>ch.onclick=()=>{
+    chips.forEach(x=>x.classList.remove('active')); ch.classList.add('active');
+    const f=ch.dataset.f;
+    document.querySelectorAll('.proj').forEach(p=>p.classList.toggle('hide',f!=='all'&&p.dataset.cat!==f));
+  });
+
+  // reveal + counters
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(n=>io.observe(n));
+  document.querySelectorAll('[data-count]').forEach(n=>{
+    const t=+n.dataset.count; let v=0;
+    const step=()=>{v+=Math.max(1,t/30);if(v>=t){n.textContent=t+'+'}else{n.textContent=Math.floor(v);requestAnimationFrame(step)}};
+    step();
+  });
+  document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
